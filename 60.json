@@ -1,0 +1,41 @@
+{"tabell_id":60,"api_versjon":1,"statuslinje":"N","begrensning":"*","kodetekst":"J","desimal_separator":".",
+"groupBy":["Institusjonskode", "Avdelingskode", "Årstall", "Semester", "Alder"],
+"sortBy":["Institusjonskode", "Avdelingskode"],
+"filter":[
+   {
+      "variabel": "Institusjonskode",
+      "selection": {
+         "filter": "all",
+         "values": [
+            "*"
+         ],
+         "exclude": [
+            ""
+         ]
+      }
+   },
+   {
+      "variabel": "Avdelingskode",
+      "selection": {
+         "filter": "all",
+         "values": [
+            "*"
+         ],
+         "exclude": [
+            ""
+         ]
+      }
+   },
+   {
+      "variabel": "Årstall",
+      "selection": {
+         "filter": "top",
+         "values": [
+            "2"
+         ],
+         "exclude": [
+            ""
+         ]
+      }
+   }
+]} 
