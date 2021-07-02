@@ -1,5 +1,5 @@
-{"tabell_id":124,"api_versjon":1,"statuslinje":"N","begrensning":"10000","kodetekst":"J","desimal_separator":".",
-"groupBy":["Institusjonskode", "Årstall", "Stedkode campus"],
+{"tabell_id":124,"api_versjon":1,"statuslinje":"N","begrensning":"1000000","kodetekst":"J","desimal_separator":".",
+"groupBy":["Institusjonskode", "Årstall", "Stedkode campus", "Semester", "Studentkategori", "Studieprogramkode", "Studieretningkode", "Stednavn campus", "Kommunenummer campus", "Kjønn", "Studiumkode", "Nivåkode", "NUS-kode", "Organisering_kode", "Andel av heltid", "Studiepoeng"],
 "sortBy":["Institusjonskode", "Årstall"],
 "filter":[
    {
