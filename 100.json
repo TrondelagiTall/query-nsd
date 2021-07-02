@@ -1,0 +1,29 @@
+{"tabell_id":100,"api_versjon":1,"statuslinje":"N","begrensning":"10000","kodetekst":"J","desimal_separator":".",
+"groupBy":["Årstall", "Institusjonskode (arbeidsgiver)"],
+"sortBy":["Årstall", "Institusjonskode (arbeidsgiver)"],
+"filter":[
+   {
+      "variabel": "Årstall",
+      "selection": {
+         "filter": "top",
+         "values": [
+            "1"
+         ],
+         "exclude": [
+            ""
+         ]
+      }
+   },
+   {
+      "variabel": "Institusjonskode (arbeidsgiver)",
+      "selection": {
+         "filter": "all",
+         "values": [
+            "*"
+         ],
+         "exclude": [
+            ""
+         ]
+      }
+   }
+]} 
