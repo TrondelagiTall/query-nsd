@@ -1,6 +1,6 @@
 tab_num<-124
 
-url_query<-paste0("C:/Users/iryku/Trøndelag fylkeskommune/Seksjon Regional - Statistikk/PowerBI/GitHub/query-nsd/", tab_num, ".json")
+url_query<-paste0("https://raw.githubusercontent.com/TrondelagiTall/query-nsd/main/", tab_num, ".json")
 query<-jsonlite::fromJSON(url_query)
 
 url_tabell <- "https://api.nsd.no/dbhapitjener/Tabeller/bulk-csv?rptNr=001"
